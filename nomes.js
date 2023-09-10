@@ -11,16 +11,20 @@ function pegarDadosFormulario() {
     const nome = listaNomes[posicaoNome];
 
     mostraResultado(nome);
+
+}
+
+function limpar() {
     textarea.value = ""
 }
 
 btnSortear.addEventListener("click", pegarDadosFormulario);
 
 function gerarNumeroAleatorio(tamanhoArray) {
-    return Math.floor(Math.random()*(tamanhoArray-0)+0)
+    return Math.floor(Math.random() * (tamanhoArray - 0) + 0)
 }
 
 function mostraResultado(nome) {
-    tagResultado.innerHTML = `Resultado ${nome}`;
+    tagResultado.innerHTML = `Resultado: ${nome}`;
     popUpResultado.classList.add("Resultado");
 }

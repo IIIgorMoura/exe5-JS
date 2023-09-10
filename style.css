@@ -48,7 +48,7 @@ body {
 
 /* fim txt */
 /* botao */
-.sortear {
+.sorteador {
     font: 800 25px Arial;
     color: #fff;
 
@@ -67,15 +67,15 @@ body {
     
 }
 
-.sortear:hover {
+.sorteador:hover {
     transform: scale(1.2);
 
-    background-color: rgb(36, 225, 51);
+    background-color: #24e133;
 }
 
 /* fim botao */
 /* forms */
-input {
+.forms {
     width: 400px;
     height: 50px;
 
@@ -101,7 +101,7 @@ input {
     border-radius: 15px;
 
     width: 1000px;
-    height: 350px;
+    height: 500px;
 
     justify-content: center;
     align-items: center;
@@ -132,3 +132,51 @@ input {
 }
 
 /* fim resultado */
+
+/* NOMES */
+/* textarea */
+.formulario {
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+#entradaNomes {
+    height: 200px;
+    width: 375px;
+    
+}
+/* fim textarea */
+/* botao limpar */
+.clear {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #bb1e1e;
+
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+
+    transition: 200ms;
+    margin: 20px;
+}
+
+.clear:hover {
+    transform: scale(1.2);
+
+    background-color: #e73131;
+}
+/* fim botao limpar */
+/* resultado */
+#result {
+    padding: 20px;
+    font: 800 30px Arial;
+
+    color: #fff;
+}
+/* fim resultado */
+/* FIM NOMES */

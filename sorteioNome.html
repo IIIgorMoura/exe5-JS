@@ -1,32 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sorteio - nome</title>
 
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/78f0f143f5.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <section class="sorteio">
         <div class="container">
             <h2 class="titulo">SORTEAR NOME</h2>
             <div class="linha"></div>
 
-            <div class="formulario">
-                <label for="entradaNomes">Adicione os nomes para o sorteio</label>
-                <textarea id="entradaNomes" placeholder="Adicione os nomes separados por vírgula. ex(Juliana, Rebeca, Luana)"></textarea>
+            <label class="txt" for="entradaNomes">Adicione os nomes separados por vírgula. Exemplo: Juliana, Rebeca, Luana.</label>
 
-                <button class="sortear">
-                    Sortear
+            <div class="formulario">
+                <textarea class="forms" id="entradaNomes"></textarea>
+
+                <buttonc class="clear txt" onclick="limpar()">
+                    <i class="fa-solid fa-trash fa-2xl"></i>
                 </button>
             </div>
+
+            <button class="sortear sorteador">
+                Sortear
+            </button>
+
             <div class="resultado">
-                <p>Resultado: </p>
+                <p id="result">Resultado: </p>
             </div>
         </div>
     </section>
-    
+
     <script src="nomes.js"></script>
 </body>
+
 </html>
