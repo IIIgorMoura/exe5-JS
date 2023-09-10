@@ -48,7 +48,7 @@ body {
 
 /* fim txt */
 /* botao */
-.sorteador {
+.botao {
     font: 800 25px Arial;
     color: #fff;
 
@@ -64,13 +64,19 @@ body {
     justify-content: center;
 
     transition: 200ms;
-    
 }
 
-.sorteador:hover {
+.botao:hover {
     transform: scale(1.2);
 
     background-color: #24e133;
+}
+
+a {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
 }
 
 /* fim botao */
