@@ -32,8 +32,10 @@ body {
 
 /* fim background */
 /* titulo */
-#titulo {
+.titulo {
     font: 1000 40px Arial;
+    color: #fff;
+
     padding-bottom: 15px;
 }
 
@@ -46,7 +48,7 @@ body {
 
 /* fim txt */
 /* botao */
-#sortear {
+.sortear {
     font: 800 25px Arial;
     color: #fff;
 
@@ -65,7 +67,7 @@ body {
     
 }
 
-#sortear:hover {
+.sortear:hover {
     transform: scale(1.2);
 
     background-color: rgb(36, 225, 51);
